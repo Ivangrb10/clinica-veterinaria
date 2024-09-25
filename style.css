@@ -42,6 +42,38 @@ body {
 	width: 10%;
 	background-color: rgb(244, 246, 251);
 }
+.mapa{
+	display: flex;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	gap: 3rem;
+	width: 3200;
+	height: 2500;
+	text-align: center;
+}
+.contenedor{
+	text-align: center;
+
+}
+.boton{
+	
+	display: inline-block;
+	background:rgb(6, 34, 214);
+	font-weight: 500;
+	margin-top: 1rem;
+	text-decoration: none;
+	border-radius: 50px;
+	padding: 10px 15px;
+	color: black;
+}
+.boton a{
+	color: black important;
+	text-decoration: none;
+	padding: auto;
+	font-weight: 700;
+	
+}
+
 
 
 /* estilos específicos para pantallas menores a 992px (menor que lg de bootstrap) */
